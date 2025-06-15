@@ -20,8 +20,26 @@ body {
     border-radius: 50%;
 }
 
+.projetos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icone {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+}
+
 .texto_pequeno {
-    text-size: 12pt;
+    font-size: 12pt;
 }
 
 ul {
@@ -36,6 +54,13 @@ h1 {
 
 h2 {
     text-align: center;
+    font-size: 20pt;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20pt;
     color: white;
 }
 
