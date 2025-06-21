@@ -16,9 +16,10 @@
   - Navegador de Desktop e Smartphone:
 </p>
 
-<p>
-  Em Desenvolvimento...
-</p>
+<div align="center" style="display: inline_block">
+  <img src="https://github.com/dr3st-d3/Portfolio-site/blob/main/1_Imagens_README/SiteV2.jpg" height="230" alt="SITEV1DESKTOP">
+  <img src="https://github.com/dr3st-d3/Portfolio-site/blob/main/1_Imagens_README/SiteV2.gif" height="230" alt="SITEV1CELULAR">
+</div>
 
 <h2>
   Ferramentas usadas:
@@ -29,6 +30,7 @@
   <img align="center" alt="HTML" src="https://skillicons.dev/icons?i=html">
   <img align="center" alt="CSS" src="https://skillicons.dev/icons?i=css">
   <img align="center" alt="JAVASCRIPT" src="https://skillicons.dev/icons?i=js">
+  <img align="center" alt="PHOTOSHOP" src="https://skillicons.dev/icons?i=ps">
 </div>
 
 ##
