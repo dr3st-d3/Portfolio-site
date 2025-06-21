@@ -1,52 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Estilos.css">
-    <title>Portfólio - André Xavier de Araújo Nogueira</title>
-</head>
-<body>
-    <div class="caixa">
-    <main>
-        <header>
-            <img src="./imagens/mim.jpg" class="foto">
-            <h1><strong>André Xavier de Araújo Nogueira</strong></h1>
-            <hr>
-            <p>Bem vindo ao meu portfólio! Aqui você encontrará links para meu perfil no <strong>GitHub</strong>, onde compartilho projetos e estudos voltados ao desenvolvimento de software, além do meu <strong>LinkedIn</strong>, caso queira conhecer mais sobre minha trajetória profissional. Também estão disponíveis alguns projetos desenvolvidos em <strong>Python</strong> e <strong>Java</strong>, criados com o objetivo de exercitar e aprimorar meus conhecimentos.</p>
-            <p>Atualmente, sou estudante de Ciência da Computação na Universidade Cruzeiro do Sul (Campus Villa Lobos – SP).</p>
-            <hr>
-            <h2>Links para as redes sociais<h2>
-            <div class="projetos">
-                <div class="projeto">
-                    <img src="./imagens/github.png" class="icone">
-                    <a href="https://github.com/dr3st-d3" target="blank" class="texto_pequeno">GitHub</a>
-                </div>
-                <div class="projeto">
-                    <img src="./imagens/linkedin.png" class="icone">
-                    <a href="https://www.linkedin.com/in/andre-xavier-an" target="blank" class="texto_pequeno">Linkedin</a>
-                </div>
-            </div>
-            <hr>
-            <div>
-                <h3>Projetos</h3>
-            </div>
-            <div class="projetos">
-                <div class="projeto">
-                    <img src="./imagens/python.png" class="icone">
-                    <a href="https://github.com/dr3st-d3/Jogos-em-python" target="blank" class="texto_pequeno">Projetos em Python</a>
-                </div>
-                <div class="projeto">
-                    <img src="./imagens/java.png" class="icone">
-                    <a href="https://github.com/dr3st-d3/Jogos-em-java" target="blank" class="texto_pequeno">Projetos em Java</a>
-                </div>
-            </div>
-            <hr>
-            <footer>
-            <p>Contato: <a href="mailto:andrexavier.epro@gmail.com">andrexavier.epro@gmail.com</a></p>
-            </footer>
-        </header>
-    </main>
+<html lang="pt-br" class="light">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Foto de André Xavier, com barba, usando óculos, camisa cinza, moletom e jaqueta pretas."
+        />
+        <p>@dr3st.og</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="https://github.com/dr3st-d3" target="_blank"
+            >Ver meu portfólio</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://github.com/dr3st-d3/Projetos-Com-Interface-Grafica-Em-Python"
+            target="_blank"
+            >Ver meus projetos com Python</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://github.com/dr3st-d3/HTML-CSS-JavaScript"
+            target="_blank"
+            >Ver meus projetos com HTML, CSS e JavaScript</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/dr3st-d3" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/dr3st.og/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://x.com/dr3st_d3" target="_blank">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/andr%C3%A9-xavier-31096b226"
+          target="_blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Contato:
+        <a href="mailto:andrexavier.epro@gmail.com">
+          andrexavier.epro@gmail.com</a
+        >
+      </footer>
+
     </div>
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
