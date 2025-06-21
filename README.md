@@ -21,6 +21,10 @@
   <img src="https://github.com/dr3st-d3/Portfolio-site/blob/main/1_Imagens_README/SiteV2.gif" height="230" alt="SITEV1CELULAR">
 </div>
 
+<p>
+  Projeto desenvolvido durante o curso "Discover" da Rocketseat, com personalizações realizadas nos assets fornecidos nas aulas, utilizando o Adobe Photoshop.
+</p>
+
 <h2>
   Ferramentas usadas:
 </h2>
@@ -47,6 +51,10 @@
   <img src="https://github.com/dr3st-d3/Portfolio-site/blob/main/1_Imagens_README/SiteV1.png" height="230" alt="SITEV1DESKTOP">
   <img src="https://github.com/dr3st-d3/Portfolio-site/blob/main/1_Imagens_README/SiteV1.gif" height="230" alt="SITEV1CELULAR">
 </div>
+
+<p>
+  Projeto criado como parte do curso "Git e GitHub" do Curso em Vídeo, porém todo o desenvolvimento foi feito por mim, aplicando os conceitos aprendidos ao longo das aulas.
+</p>
 
 <h2>
   Ferramentas usadas:
